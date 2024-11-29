@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgriCure Solution</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <!-- import bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+    <!-- Language button in top left corner -->
+    <div id="google_translate_element"></div>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+                {pageLanguage: 'en'},
+                'google_translate_element'
+            );
+        }
+    </script>
+    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
+
+
+    <div class="container">
+        <header>
+            <h1>AgriCure Solution</h1>
+            <p>Understand the effects of fertilizers on your crops and soil, and discover eco-friendly alternatives.</p>
+        </header>
+        
+    <!-- Inputs Section -->
+    <section class="input-section">
+    <h2>Provide Crop & Fertilizer Information</h2>
+    <form id="predict" action="/predict" method="POST" class="form-group">
+        <!-- Crop Information -->
+        <div class="form-group">
+            <label for="crop">Name of the Crop:</label>
+                <select id="crop" name="crop" class="form-control" required>
+                    {% if prediction_text %}
+                        <option value="{{ prediction_text['Crop'] }}" selected>{{ prediction_text['Crop'] }}</option>
+                    {% else %}
+                        <option value="" disabled selected>Select Crop</option>
+                    {% endif %}
+                    {% for crop in crops %}
+                        <option value="{{ crop }}">{{ crop }}</option>
+                    {% endfor %}
+                </select>
+                <br>
+                <!-- Fertilizer Information -->
+                <label for="fertilizer">Name of the Fertilizer:</label>
+                <select id="fertilizer" name="fertilizer" class="form-control" required>
+                {% if prediction_text %}
+                    <option value="{{ prediction_text['Fertilizer'] }}" selected>{{ prediction_text['Fertilizer'] }}</option>
+                {% else %}
+                    <option value="" disabled selected>Select Fertilizer</option>
+                {% endif %}
+                {% for fertilizer in fertilizers %}
+                    <option value="{{ fertilizer }}">{{ fertilizer }}</option>
+                {% endfor %}
+                </select>
+                <br>
+                <button type="submit">Analyse</button>
+            </form>
+        </section>
+
+        <!-- Outputs Section -->
+        <section class="output-section">
+            <h2>Analysis Results</h2>
+            <!-- Effects of Fertilizers -->
+            <div id="fertilizerEffects">
+                <h3>Effects of Fertilizers on Soil & Crops</h3>
+                {% if prediction_text %}
+                <p id="effectsText">{{ prediction_text['Hazardous Effects'] }}</p>
+                {% else %}
+                <p id="effectsText">Enter crop and fertilizer details to get results...</p>
+                {% endif %}
+            </div>
+
+            <!-- Alternative Manures -->
+            <div id="alternativeManures">
+                <h3>Suggested Alternative Manures</h3>
+                {% if prediction_text %}
+                <p id="alternativesText">{{ prediction_text['Eco-friendly Alternatives'] }}</p>
+                {% else %}
+                <p id="alternativesText">Enter crop and fertilizer details to get results...</p>
+                {% endif %}
+            </div>
+
+            <!-- Mitigation Strategies -->
+            <div id="mitigationStrategies">
+                <h3>Mitigation Strategies</h3>
+                {% if prediction_text %}
+                <p id="mitigationText">{{ prediction_text['Mitigation Techniques'] }}</p>
+                {% else %}
+                <p id="mitigationText">Enter crop and fertilizer details to get results...</p>
+                {% endif %}
+            </div>
+        </section>
+    </div>
+</body>
+</html>

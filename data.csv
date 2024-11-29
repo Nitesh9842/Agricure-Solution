@@ -1,0 +1,80 @@
+Crop,Fertilizer,Hazardous Effects,Eco-friendly Alternatives,Mitigation Techniques
+Sugarcane,Urea,Can lead to soil acidification and water pollution,"Compost, Green Manure","Proper application timing, use of inhibitors"
+Sugarcane,DiAmmonium Phosphate(DAP),"May contribute to phosphorus runoff, affecting water bodies","Bone Meal, Rock Phosphate",Buffer zones near water bodies
+Sugarcane,M.O.P,High potassium can lead to soil salinity,K-rich organic amendments,Soil testing before application
+Jowar,10:26:26 NPK,"Nutrient imbalance, potential leaching","Vermicompost, Legume crops",Regular soil testing
+Jowar,Urea,"Nitrogen leaching, air pollution (N2O emissions)","Peat, Manure",Split applications
+Jowar,S.S.P,High phosphorus can cause soil saturation,Bone Meal,Soil amendments based on test results
+Cotton,DiAmmonium Phosphate(DAP),Eutrophication in water bodies,"Green Manure, Compost",Controlled irrigation
+Cotton,Magnesium Sulphate,Can cause soil imbalance,"Epsom Salt, Dolomitic Lime",Regular soil testing
+Cotton,13:32:26 NPK,Nutrient runoff,"Compost, Green Cover Crops",Crop rotation
+Cotton,12:32:16 NPK,Phosphorus pollution,Organic fertilizers,Soil conservation practices
+Rice,Urea,"Water pollution from runoff, contributes to greenhouse gases","Duckweed, Rice Husk",Use of nitrification inhibitors
+Rice,50:26:26 NPK,"Risk of salinity, nutrient imbalance","Green Manure, Organic Fertilizers",Integrated Pest Management
+Wheat,19:19:19 NPK,"Soil degradation, water pollution","Compost, Organic amendments",Minimal tillage practices
+Wheat,Urea,Groundwater contamination,Plant-based fertilizers,Timing of application
+Groundnut,Chelated Micronutrient,Toxicity from overdosing,Organic Micronutrient Sources,Monitoring application rates
+Groundnut,S.S.P,Phosphorus leaching,Animal Manures,Use of cover crops
+Maize,Urea,"Nitrate leaching, air pollution","Compost, Legume Green Manure",Timing of application to reduce runoff
+Maize,S.S.P,Can lead to nutrient imbalance,"Bone Meal, Organic Fertilizers",Regular soil testing
+Maize,M.O.P,Soil salinity issues,Potassium-rich organic matter,Proper drainage practices
+Tur,Urea,"Environmental nitrogen loss, water pollution","Organic Matter, Compost",Slow-release formulations
+Tur,M.O.P,Salinity and nutrient imbalance,Organic Potassium Sources,Integrated Nutrient Management
+Tur,S.S.P,Water body eutrophication,"Biochar, Green Manure",Buffer zones near water sources
+Urad,Urea,Air pollution (N2O emissions),Organic Nitrogen Sources,Optimize application techniques
+Urad,S.S.P,"Phosphorus pollution, soil degradation",Plant-based fertilizers,Regular crop rotation
+Urad,DiAmmonium Phosphate(DAP),Nutrient leaching and imbalance,"Bone Meal, Green Manure",Soil amendments based on testing
+Moong,M.O.P,Salinity issues,Seaweed Extract,Soil amendments based on soil testing
+Moong,Urea,Nitrogen runoff and groundwater contamination,"Compost, Green Manure",Utilize cover crops
+Moong,S.S.P,Soil nutrient saturation,Organic fertilizers,Improved irrigation management
+Chickpeas,18:46:00 NPK,Nutrient runoff and eutrophication,Organic Fertilizers,Controlled application techniques
+Chickpeas,Sulphur,Soil toxicity and imbalance,"Gypsum, Organic Sources",Regular soil testing
+Masoor,Urea,Air pollution (N2O emissions),Green Manure,Split applications
+Masoor,DiAmmonium Phosphate(DAP),Eutrophication in water bodies,Organic amendments,Use of cover crops
+Soybean,Urea,"Soil degradation, water pollution",Legume intercropping,Crop rotation
+Soybean,20:20:20 NPK,Nutrient imbalance,"Compost, Organic fertilizers",Use of precision agriculture
+Soybean,S.S.P,Phosphorus runoff,"Bone Meal, Organic fertilizers",Regular soil testing
+Chickpeas,DiAmmonium Phosphate(DAP),Eutrophication risks,Organic Fertilizers,Conservation tillage practices
+Chickpeas,M.O.P,Soil salinity,Potassium-rich compost,Regular monitoring and soil testing
+Ginger,Urea,"Nitrate leaching, water pollution",Organic Fertilizers,Split applications
+Ginger,Ammonium Sulphate,Soil toxicity,Green Manure,Soil testing and balanced applications
+Ginger,DiAmmonium Phosphate(DAP),Nutrient runoff,Bone Meal,Improved irrigation management
+Turmeric,Urea,Groundwater contamination,Organic Matter,Use of organic mulches
+Turmeric,Ferrous Sulphate(FeSO4),Soil acidification,Organic Iron sources,Monitor soil pH regularly
+Turmeric,White Potash,Soil salinity issues,Potassium-rich organic matter,Ensure proper drainage
+Grapes,Ferrous Sulphate(FeSO4),Soil toxicity,Organic Iron supplements,Monitor soil conditions regularly
+Grapes,10:10:10 NPK,Nutrient imbalance,"Compost, Organic fertilizers",Regular soil testing
+Grapes,Hydrated Lime,Soil alkalinity issues,Organic pH adjusters,Monitor soil pH and adjust accordingly
+Banana,Urea,"Nitrogen leaching, water pollution",Organic Nitrogen sources,Use of slow-release fertilizers
+Banana,M.O.P,Soil salinity,Potassium-rich organic matter,Proper irrigation management
+Banana,S.S.P,Phosphorus runoff,"Bone Meal, Organic fertilizers",Regular soil testing
+Mango,Urea,"Nitrogen leaching, water pollution",Organic Nitrogen sources,Use of slow-release fertilizers
+Mango,M.O.P,Soil salinity,Potassium-rich organic matter,Proper irrigation management
+Mango,S.S.P,Phosphorus runoff,"Bone Meal, Organic fertilizers",Regular soil testing
+Apple,Urea,"Nitrogen leaching, water pollution",Organic Nitrogen sources,Use of slow-release fertilizers
+Apple,M.O.P,Soil salinity,Potassium-rich organic matter,Proper irrigation management
+Apple,S.S.P,Phosphorus runoff,"Bone Meal, Organic fertilizers",Regular soil testing
+Orange,Urea,"Nitrogen leaching, water pollution",Organic Nitrogen sources,Use of slow-release fertilizers
+Orange,M.O.P,Soil salinity,Potassium-rich organic matter,Proper irrigation management
+Orange,S.S.P,Phosphorus runoff,"Bone Meal, Organic fertilizers",Regular soil testing
+Pomegranate,Urea,"Nitrogen leaching, water pollution",Organic Nitrogen sources,Use of slow-release fertilizers
+Pomegranate,M.O.P,Soil salinity,Potassium-rich organic matter,Proper irrigation management
+Pomegranate,S.S.P,Phosphorus runoff,"Bone Meal, Organic fertilizers",Regular soil testing
+Papaya,Urea,"Nitrogen leaching, water pollution",Organic Nitrogen sources,Use of slow-release fertilizers
+Papaya,M.O.P,Soil salinity,Potassium-rich organic matter,Proper irrigation management
+Papaya,S.S.P,Phosphorus runoff,"Bone Meal, Organic fertilizers",Regular soil testing
+Guava,Urea,"Nitrogen leaching, water pollution",Organic Nitrogen sources,Use of slow-release fertilizers
+Guava,M.O.P,Soil salinity,Potassium-rich organic matter,Proper irrigation management
+Guava,S.S.P,Phosphorus runoff,"Bone Meal, Organic fertilizers",Regular soil testing
+Pineapple,Urea,"Nitrogen leaching, water pollution",Organic Nitrogen sources,Use of slow-release fertilizers
+Pineapple,M.O.P,Soil salinity,Potassium-rich organic matter,Proper irrigation management
+Pineapple,S.S.P,Phosphorus runoff,"Bone Meal, Organic fertilizers",Regular soil testing
+Strawberry,Urea,"Nitrogen leaching, water pollution",Organic Nitrogen sources,Use of slow-release fertilizers
+Strawberry,M.O.P,Soil salinity,Potassium-rich organic matter,Proper irrigation management
+Strawberry,S.S.P,Phosphorus runoff,"Bone Meal, Organic fertilizers",Regular soil testing
+Watermelon,Urea,"Nitrogen leaching, water pollution",Organic Nitrogen sources,Use of slow-release fertilizers
+Watermelon,M.O.P,Soil salinity,Potassium-rich organic matter,Proper irrigation management
+Watermelon,S.S.P,Phosphorus runoff,"Bone Meal, Organic fertilizers",Regular soil testing
+Pumpkin,Urea,"Nitrogen leaching, water pollution",Organic Nitrogen sources,Use of slow-release fertilizers
+Pumpkin,M.O.P,Soil salinity,Potassium-rich organic matter,Proper irrigation management
+Pumpkin,S.S.P,Phosphorus runoff,"Bone Meal, Organic fertilizers",Regular soil testing
